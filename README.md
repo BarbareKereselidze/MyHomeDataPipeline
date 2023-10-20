@@ -47,4 +47,3 @@ Dependencies:
 * BeautifulSoup
 * datetime and timedelta
 
-these libraries can be installed with command: pip install...
