@@ -2,7 +2,6 @@
 This Python program is designed to scrape information about real estate properties for sale in Tbilisi from the MyHome website. 
 It extracts details such as the phone number of the seller, seller's name, post date, property price (in GEL and USD), and type of property (house, flat, land, etc). The data is then stored in a MySQL database.
 
-
 Notes:
 * This program uses threading to improve performance by allowing multiple pages to be scraped simultaneously.
   Each thread corresponds to a page.
@@ -28,7 +27,9 @@ File Structure:
    * Provides method to close the database connection.
    Note: You can set up MySQL database (locally or on the cloud) and modify the InsertIntoMySQL class to use your database credentials.
 
+
 Scheduling with Linux Cron:
+
 To keep the data up-to-date, the program is scheduled to run daily at 9 AM. While I considered writing new code to retrieve data, it's important to note that advertisements on the website may not always appear in chronological order, even when selected as such. As a result, comparing every advertisement date can be slow.
 For efficiency, it's recommended to re-run the original code to fetch new data, in this case we can avoid extensive date comparisons.
 
