@@ -10,18 +10,18 @@ It extracts details such as the phone number of the seller, seller's name, post 
 
 
 ## File Structure:
-1. Main.py
+1. **Main.py**
    * Main script coordinating the scraping process.
    * Utilizes threading for concurrent page scraping.
    * Defines thread_function for each thread's behavior.
-3. Scraper.py
+3. **Scraper.py**
    * Handles HTTP requests and HTML parsing.
    * Contains Scraper class for scraping main and advertisement pages.
    * Provides methods to retrieve HTML content.
-5. PropertyScraper.py
+5. **PropertyScraper.py**
    * Contains PropertyScraper class for extracting property details.
    * Methods for finding ID, phone number, owner name, post date, price, and property type.
-6. InsertIntoMySQL.py
+6. **InsertIntoMySQL.py**
    * Manages MySQL database interactions.
    * Defines InsertIntoMySQL class for connecting, creating tables, and uploading data.
    * Provides method to close the database connection.
