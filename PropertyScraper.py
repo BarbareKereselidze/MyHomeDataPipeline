@@ -73,3 +73,4 @@ class PropertyScraper:
                                           class_="product-link-tree d-inline-flex flex-nowrap align-items-center").find(
             'a').text.replace('იყიდება ', '')
         return type_of_property
+

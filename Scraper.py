@@ -30,3 +30,4 @@ class Scraper:
             return soup
         except requests.exceptions.HTTPError as http_err:
             return f"Error: Unable to retrieve data. Status code: {http_err.response.status_code}"
+

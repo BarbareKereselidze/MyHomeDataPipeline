@@ -56,5 +56,3 @@ class InsertIntoMySQL:
         self.cursor.close()
         self.conn.close()
 
-
-
