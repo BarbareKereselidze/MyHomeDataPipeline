@@ -1,4 +1,4 @@
-# MyHomeDataPipeline
+# MyHome Data Pipeline
 This Python program is designed to scrape information about real estate properties for sale in Tbilisi from the [MyHome](https://www.myhome.ge/ka/) website. 
 It extracts details such as the phone number of the seller, seller's name, post date, property price (in GEL and USD), and type of property (house, flat, land, etc). The data is then stored in a MySQL database.
 
